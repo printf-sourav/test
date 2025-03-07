@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Dog - Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #4CAF50; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .section { padding: 20px; text-align: center; }
+        .dog-gallery { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .dog-card { background-color: white; border: 1px solid #ddd; padding: 10px; width: 200px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); cursor: pointer; }
+        .dog-card img { width: 100%; height: auto; }
+        .dog-card:hover { box-shadow: 4px 4px 10px rgba(0,0,0,0.2); }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adopt a Dog</h1>
+        <p>Find your new best friend today!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="adoption-form.html">Adoption Form</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+
+    <div class="section">
+        <h2>Welcome!</h2>
+        <p>We’re here to help dogs find loving homes. Click a dog’s photo to start the adoption process!</p>
+    </div>
+
+    <div class="section">
+        <h2>Available Dogs</h2>
+        <div class="dog-gallery">
+            <a href="adoption-form.html?dog=Buddy" class="dog-card">
+                <img src="https://via.placeholder.com/200x200?text=Dog+1" alt="Buddy">
+                <h3>Buddy</h3>
+                <p>3 years old, loves fetch!</p>
+            </a>
+            <a href="adoption-form.html?dog=Luna" class="dog-card">
+                <img src="https://via.placeholder.com/200x200?text=Dog+2" alt="Luna">
+                <h3>Luna</h3>
+                <p>1 year old, super cuddly.</p>
+            </a>
+            <a href="adoption-form.html?dog=Max" class="dog-card">
+                <img src="https://via.placeholder.com/200x200?text=Dog+3" alt="Max">
+                <h3>Max</h3>
+                <p>5 years old, great with kids.</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Adopt a Dog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
